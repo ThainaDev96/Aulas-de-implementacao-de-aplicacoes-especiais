@@ -1,0 +1,37 @@
+<html>
+    <head>
+           <title>Titulo</title>
+    </head>
+     <body>
+        <form action="processa.php" method="get">
+
+            Campo Escondido:<input type=hidden name=escondido value="1"><br>
+            <br>
+            Campo 1:<input type=text name=campo1><br><!--nome dos campos tem que ser diferente para não dar conflito-->
+            <br>
+            Campo 2:<input type=text name=campo2><br>
+             <br>
+            Campo 3:<input type=text name=nome><br>
+             <br>
+            Campo 4:<textarea name=mensagem cols=50 rows=15>
+            </textarea>
+            
+            <br>
+
+            <input type="radio" name="sistema" value="windows_xp">Windows XP</input>
+            <input type="radio" name="sistema" value="windows_10">Windows 10 meu amigo</input>
+            <input type="radio" name="sistema" value="windows_311">Windows 311</input>
+            <input type="radio" name="sistema" value="windows_2000">Windows 2000</input>
+
+             <br>
+            <input type="radio" name="cor" value="verde">Sinal verde</input>
+            <input type="radio" name="cor" value="amarelo">Sinal amarelo</input>
+            <input type="radio" name="cor" value="vermelho">Sinal vermelho</input>
+
+
+            <input type=submit value="OK"><!--botão da ação-->
+
+
+        </form>
+        </body>
+</html>
